@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Header */}
       <header className="bg-primary text-primary-foreground py-4">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between">
             <Image
               src="/OGK-logo.avif"
@@ -35,7 +35,7 @@ export default function Home() {
       </header>
 
       {/* Hero Stats */}
-      <section id="stats" className="container mx-auto px-4 py-8">
+      <section id="stats" className="max-w-7xl mx-auto px-4 py-8">
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Community Impact</h2>
           <p className="text-muted-foreground">Together, we&apos;re making a difference</p>
@@ -44,17 +44,17 @@ export default function Home() {
       </section>
 
       {/* Leaderboard - Full Width */}
-      <section id="leaderboard" className="container mx-auto px-4 pb-8">
+      <section id="leaderboard" className="max-w-7xl mx-auto px-4 pb-8">
         <Leaderboard />
       </section>
 
       {/* Volunteer Grid */}
-      <section id="volunteers" className="container mx-auto px-4 pb-8">
+      <section id="volunteers" className="max-w-7xl mx-auto px-4 pb-8">
         <VolunteerGrid />
       </section>
 
       {/* Activity Feed - Full Width */}
-      <section id="activity" className="container mx-auto px-4 pb-12">
+      <section id="activity" className="max-w-7xl mx-auto px-4 pb-12">
         <ActivityFeed />
       </section>
 
